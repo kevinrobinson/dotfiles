@@ -1,0 +1,12 @@
+[alias]
+lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+l = log --graph --decorate --pretty=oneline --abbrev-commit --all
+st = status
+co = checkout
+[user]
+  name = Kevin Robinson
+  email = kevin.robinson.0@gmail.com
+[credential]
+  helper = osxkeychain
+[color]
+  ui = true
